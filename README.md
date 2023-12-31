@@ -27,3 +27,8 @@ Limitations:
 Implementation: 
 - A single header file
 - Heavy reliance on templates, and C++20 concepts
+- main.cpp provides examples of use
+
+If you run main.cpp, you should get something like this:
+<img width="440" alt="image" src="https://github.com/arandhaw/pretty_print_STD/assets/72634664/cd8933de-41c3-47a6-bce2-f184c3bacc69">
+
