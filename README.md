@@ -1,10 +1,13 @@
 # pretty_print_STD
-A C++20 library offering simplified syntax for printing things, with inbuilt support for containers in the standard library.
+A C++20 library offering simplified syntax for printing things, with inbuilt support for printing containers in the standard library.
 Has the following functions:
 
 void print(...) <br>
 void print_raw(...) <br>
 void print_custom(sep, end, ...) <br>
+
+- Simply #include pretty_print_STD.cpp
+- These functions are in the namespace pretty_print_STD
 
 These functions can take an arbitrary number of parameters, and print them.
 The print() function has similar syntax to print in python. Every arguement will be printed separated by a space " ", with a newline at the end "\n".
@@ -25,10 +28,9 @@ Limitations:
 - Not optimized for performance, rather for ease of use
 
 Implementation: 
-- A single header file
 - Heavy reliance on templates, and C++20 concepts
 - main.cpp provides examples of use
 
-If you run main.cpp, you should get something like this:
-<img width="440" alt="image" src="https://github.com/arandhaw/pretty_print_STD/assets/72634664/cd8933de-41c3-47a6-bce2-f184c3bacc69">
+If you run main.cpp, you should get something like this: <br>
+<img width="880" alt="image" src="https://github.com/arandhaw/pretty_print_STD/assets/72634664/cd8933de-41c3-47a6-bce2-f184c3bacc69">
 
